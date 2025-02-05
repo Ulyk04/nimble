@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+.sixtyfour{
+    font-family: "Sixtyfour", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+  }
+
+  .yanone-kaffeesatz {
+    font-family: "Yanone Kaffeesatz", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* , html , body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 200px 0;
+    max-height: 100vh;
+}
+
+body{
+    background-color: #281549;
+}
+/* section- 1 */
+.title-1{
+    display: flex;
+    justify-content: center;
+    font-family: "Yanone Kaffeesatz", serif;
+    font-size: 35px;
+    color: aliceblue;
+    margin-top: -100px;
+    padding: 20px 20px;
+}
+.title-1 img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 27px;
+}
+.desc-1{
+    font-family: "Sixtyfour", serif;
+    width: 50%;
+    padding: 5% 10%;
+}
+.desc-1 h1{
+    color: white;
+    animation: glow 1s infinite alternate;
+    font-size: 500%;
+    margin: 25px 0;
+}
+@keyframes glow {
+    0% { text-shadow: 0 0 5px #fff, 0 0 10px #fff; }
+    50% { text-shadow: 0 0 10px #fff, 0 0 20px #fff; }
+    100% { text-shadow: 0 0 5px #fff, 0 0 10px #fff; }
+}
+.desc-1 h3{
+    color: #8C1AF6;
+    font-size: 300%;
+}
+.btn-1{
+    background:linear-gradient(to right , #8C1AF6 , #4d288b);
+    width: 50%;
+    height: 50px;
+    font-family: "Sixtyfour" , serif;
+    color: aliceblue;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    margin: 25px 0;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background: linear-gradient(to left , #8C1AF6 , #4d288b);
+}
+.image-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 2% 2%;
+}
+.img-1{
+    margin-top: -30%;
+    margin-right: 3%;
+}
+.img-2{
+    margin-top: -10%;
+    margin-right: 40%;
+}
+.img-4{
+    margin-top: -25%;
+    margin-right: 40%;
+}
+/* section -2 */
+
+.title-2{
+    font-family: "Sixtyfour", serif;
+    color: aliceblue;
+    animation: glow 1s infinite alternate;
+    font-size: 600%;
+    padding: 5% 10%;
+}
+.desc-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10%;
+    padding: 5% 10%;
+}
+.card-2 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+.card-2 h1 , button{
+    margin-top: -40%;
+    font-family:  "Yanone Kaffeesatz", serif;
+}
+.card-2 h1{
+    font-size: 400%;
+    color: aliceblue;
+}
+.card-2 button{
+    width: 60%;
+    height: 45px;
+    font-size: 150%;
+    margin-top: 2%;
+    background: linear-gradient(to right , #8C1AF6 , #281549);
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.card-2 button:hover{
+    background: linear-gradient(to right , #281549 , #8C1AF6);
+}
+/* section- 3 */
+
+.title-3 h1{
+    font-size: 500%;
+    font-family:  "Sixtyfour", serif;
+    color: #fff;
+    animation: glow 1s infinite alternate;
+}
+
+@media(max-width:765px){
+    .title-1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: -20%;
+        padding: 0 10%;
+        font-size: 250%;
+    }
+    .desc-1 h1{
+        font-size: 280%;
+    }
+    .desc-1 h3{
+        font-size: 200%;
+    }
+    .desc-1{
+        padding: 10% 10%;
+    }
+    .desc-1 button{
+        width: 900%;
+    }
+    .big-desc-1{
+        width: 10%;
+    }
+    .image-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .image-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 20%;
+        padding: 5% 10%;
+    }
+    /*section -2 */
+    .title-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 100%;
+        font-size: 200%;
+    }
+    .desc-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .card-2 h1{
+        font-size: 250%;
+    }
+
+}
