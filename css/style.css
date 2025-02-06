@@ -153,6 +153,224 @@ body{
     color: #fff;
     animation: glow 1s infinite alternate;
 }
+.title-3{
+    padding: 5% 10%;
+}
+.title-3 img{
+    width: 30%;
+    height: 400px;
+    border-radius: 15%;
+    object-fit: cover;
+    margin-top: 5%;
+}
+.desc-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -30%;
+    padding: 5% 10%;
+    gap: 50px;
+}
+.card-3{
+    width: 50%;
+    font-family: "Yanone Kaffeesatz", serif;
+}
+.card-3 h1{
+    font-size: 300%;
+    color: #8C1AF6;
+}
+.card-3 p{
+    font-size: 180%;
+    color: aliceblue;
+}
+.card-3 button{
+    width: 50%;
+    height: 40px;
+    font-size: 150%;
+    background:linear-gradient(to right , white , #8C1AF6);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.card-3 button:hover{
+    background: linear-gradient(to right , #8C1AF6 , white);
+}
+/* section - 4 */
+
+.title-4{
+    font-family: "Sixtyfour", serif;
+    color: aliceblue;
+    animation: glow 1s infinite alternate;
+    font-size: 600%;
+    padding: 5% 10%;
+}
+
+.desc-4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    padding: 5% 10%;
+    font-family: "Yanone Kaffeesatz", serif;
+}
+.card-4 img{
+    width: 120%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+.card-4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-4 h1{
+    font-size: 180%;
+    color: aliceblue;
+}
+.card-4 h2{
+    font-size: 250%;
+    color: #8C1AF6;
+}
+.card-4 p{
+    font-size: 180%;
+    color: aliceblue;
+}
+
+/* section - 5 */
+
+.title-5{
+    font-family: "Sixtyfour", serif;
+    color: aliceblue;
+    animation: glow 1s infinite alternate;
+    font-size: 600%;
+    padding: 5% 10%;
+}
+.desc-5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    padding: 1% 10%;
+    font-family: "Yanone Kaffeesatz", serif;
+    margin-top: -10%;
+}
+.card-5 img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+.card-5{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-5 h2{
+    font-size: 250%;
+    color: #8C1AF6;
+}
+.card-5 p{
+    font-size: 180%;
+    color: aliceblue;
+}
+
+/* section - 6 */
+
+.section-6 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60vh;
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+  }
+
+.title-6{
+    font-family: "Sixtyfour", serif;
+    color: aliceblue;
+    animation: glow 1s infinite alternate;
+    font-size: 600%;
+    padding: 5% 10%;
+}
+.desc-6{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 5% 10%;
+}
+.card-6{
+    width: 500px;
+    font-family: "Yanone Kaffeesatz", serif;
+    color: aliceblue;
+}
+.card-6 h1{
+    font-size: 250%;
+    margin-top: 5%;
+}
+.card-6 p{
+    font-size: 150%;
+    margin-top: 5%;
+}
+.card-6 img{
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+/* section- 7 */
+
+.title-7{
+    width: 50%;
+}
+.title-7 h1{
+    font-family: "Sixtyfour", serif;
+    color: aliceblue;
+    animation: glow 1s infinite alternate;
+    font-size: 600%;
+    padding: 5% 10%;
+    margin-top: 20%;
+}
+.title-7 p{
+    font-size: 180%;
+    color: aliceblue;
+    font-family: "Yanone Kaffeesatz", serif;
+    padding: 0 10%;
+}
+.title-7 button{
+    width: 30%;
+    height: 40px;
+    margin-left: 50px;
+    font-size: 150%;
+    border: none;
+    cursor: pointer;
+}
+.btn-7{
+    padding: 5% 10%;
+}
+.btn-7-1{
+    background: linear-gradient(to right , #8C1AF6 , #4d288b);
+}
+.btn-7-1:hover{
+    background: linear-gradient(to left , #8C1AF6 , #281549);
+}
+.btn-7-2{
+    background: linear-gradient(to right , white , #8C1AF6);
+}
+.btn-7-2:hover{
+    background: linear-gradient(to left , white , #8C1AF6);
+}
+
+/*----------------------------------------------------------------------------*/
+
 
 @media(max-width:765px){
     .title-1{
@@ -209,5 +427,98 @@ body{
     .card-2 h1{
         font-size: 250%;
     }
+    /* section- 3 */
+    .title-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 50%;
+        margin-top: 270%;
+        padding: 5% 10%;
+    }
+    .title-3 img{
+        width: 80%;
+        height: 200px;
+    }
+    .desc-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+        padding: 5% 10%;
+    }
+    .card-3{
+        width: 100%;
+    }
+    /* section- 4 */
 
+    .title-4{
+        margin-top: 400%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 200%;
+    }
+    .desc-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .card-4 h1{
+        font-size: 250%;
+    }
+    /* section- 5 */
+
+    .title-5{
+        margin-top: 650%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 150%;
+    }
+    .desc-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 10%;
+    }
+    .card-5 h1{
+        font-size: 250%;
+    }
+    /* section -6 */
+    .section-6{
+        margin-top: 800%;
+        min-height: 180vh;
+    }
+    .title-6{
+        font-size: 400%;
+        display: flex;
+        justify-content: center;
+    }
+    .desc-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card-6{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .card-6 h1{
+        font-size: 180%;
+    }
+    .card-6 p{
+        font-size: 150%;
+    }
 }
