@@ -462,6 +462,16 @@ footer{
     left: 35%;
     margin-left: 35px;
 }
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-50px); 
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.visible {
+    opacity: 1;
+    transform: translateX(0); 
+}
 /*----------------------------------------------------------------------------*/
 
 
