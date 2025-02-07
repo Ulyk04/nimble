@@ -3,7 +3,7 @@
 **NIMBLE** This is a simple technology and review site
 
 ## 🚀 [View Live Website]
- https://ulyk04.github.io/Lamplight/
+https://ulyk04.github.io/nimble/
 
 ---
 
